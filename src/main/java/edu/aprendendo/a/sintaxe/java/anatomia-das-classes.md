@@ -4,7 +4,7 @@ description: Uma classe bem estruturada não quer guerra com ninguém
 
 # Anatomia das classes
 
-A escrita de códigos de um programa é feito através da composição de palavras pré-definidas pela linguagem com as expressões que utilizamos para determinar o nome do nossos arquivos, classes, atributos e métodos.
+A escrita de códigos de um programa é feito através da composição de palavras pré-definidas pela linguagem com as expressões que utilizamos para determinar o nome dos nossos arquivos, classes, atributos e métodos.
 
 É muito comum mesclarmos expressões no idioma americano com o nosso vocabulário. Existem projetos que recomendam que toda a implementação do seu programa seja escrita na língua inglesa.
 
@@ -14,18 +14,18 @@ A escrita de códigos de um programa é feito através da composição de palavr
 * 99,9% das nossas classes iniciarão com `public class;`
 * Toda classe precisa de nome, exemplo `MinhaClasse;`
 * O nome do arquivo deve ser idêntico ao nome da classe pública;
-* Após o nome, definir o corpo `{ }` , onde iremos compor nossas classes com atributos e métodos.
+* Após o nome, definir o corpo `{ }` , onde iremos compor as nossas classes com atributos e métodos.
 
 
-* É de suma importância que agora você consiga se localizar dentro do conjunto de chaves `{ }` existentes em sua classe.
-* Dentro de uma aplicação, **recomenda-se que somente uma classe possua o método** `main`, responsável por iniciar todo o nosso programa.
-* O método main recebe seu nome `main`, sempre terá a visibilidade `public`, será difinido como `static`, não retornará nenhum valor com `void` e receberá um parâmetro do tipo array de caracteres `String[]`.
+* É de suma importância que agora você consiga se localizar dentro do conjunto de chaves `{ }` existentes na sua classe.
+* Em uma aplicação, **recomenda-se que somente uma classe possua o método** `main`, responsável por iniciar todo o nosso programa.
+* O método main recebe o seu nome `main`, sempre terá a visibilidade `public`, será difinido como `static`, não retornará nenhum valor com `void` e receberá um parâmetro do tipo array de caracteres `String[]`.
 
 ## Padrão de nomenclatura
 
 Quando se trata de escrever códigos na linguagem Java, é recomendado seguir algumas convenções de escrita. Esses padrões estão expressos nos itens abaixo:
 
-*   **Arquivo .java**: Todo arquivo .java deve começar com letra MAIÚSCULA. Se a palavra for composta, a segunda palavra deve também ser maiúscula, exemplo:
+*   **Arquivo .java**: todo arquivo .java deve começar com letra MAIÚSCULA. Se a palavra for composta, a segunda palavra deve também ser maiúscula, exemplo:
 
     `Calculadora.java`, `CalculadoraCientifica.java`
 * **Nome da classe no arquivo**: A classe deve possuir o mesmo nome do arquivo.java, exemplo:
@@ -40,7 +40,7 @@ public class CalculadoraCientifica {
 
 * **Nome de variável**: toda variável deve ser escrita com letra minúscula, porém se a palavra for composta, a primeira letra da segunda palavra deverá ser MAIÚSCULA, exemplo: `ano` e `anoFabricacao`. O nome dessa prática para nomear variáveis dessa forma se chama "camelCase".&#x20;
 
-<strong>Existe uma regra adicional para variáveis quando na mesma queremos identificar que ela não sofrerá alteração de valor, exemplo: queremos determinar que uma variável de nome **br** sempre representará **"Brasil"** e nunca mudará seu valor, logo, determinamos como escrita o código abaixo:
+<strong>Existe uma regra adicional para variáveis quando na mesma queremos identificar que ela não sofrerá alteração de valor, exemplo: queremos determinar que uma variável de nome **br** sempre representará **"Brasil"** e nunca mudará o seu valor, logo, determinamos como escrita o código abaixo:
 
 
 ```java
@@ -58,7 +58,7 @@ int ANO_2000 = 2000;
 * Deve iniciar com uma letra minúscula (boa prática – ver abaixo)
 * Não pode conter espaços
 * Não podemos usar palavras-chave da linguagem
-* O nome deve ser único dentro de um escopo
+* O nome deve ser único em um escopo
 
 ```java
 // Declação inválida de variáveis
@@ -78,7 +78,7 @@ int longo = 1;
 
 ## Declarando variáveis e métodos
 
-Como identificar entre declaração de variáveis e métodos em nossa programa? Existe uma estrutura comum para ambas as finalidades, exemplo:
+Como identificar entre declaração de variáveis e métodos no nosso programa? Existe uma estrutura comum para ambas as finalidades, exemplo:
 
 * Declarar uma variável em Java segue sempre a seguinte estrutura:
 
@@ -155,7 +155,7 @@ public class BoletimEstudantil {
 
 ## Organizando arquivos
 
-À medida que nosso sistema vai evoluindo, surgem novos arquivos (código fonte) em nossa estrutura de arquivos do projeto. Isso exige que seja realizado uma organização destes arquivos através de pacotes (packages).
+À medida que o nosso sistema vai evoluindo, surgem novos arquivos (código-fonte) na nossa estrutura de arquivos do projeto. Isso exige que seja realizado uma organização destes arquivos por pacotes (packages).
 
 
 Com o uso de pacotes as nossas classes (.java) passam a possuir duas identificações, o nome simples e nome qualificado:
@@ -165,11 +165,11 @@ Com o uso de pacotes as nossas classes (.java) passam a possuir duas identifica�
 
 ## Java Beans
 
-Umas das maiores dificuldades na programação é escrever algoritmos legíveis a níveis que sejam compreendidos por todo seu time ou por você mesmo no futuro. Para isso a linguagem Java sugere, através de convenções, formas de escrita universal para nossas classes, atributos, métodos e pacotes.
+Umas das maiores dificuldades na programação é escrever algoritmos legíveis a níveis que sejam compreendidos por todo o seu time ou por você mesmo no futuro. Para isso a linguagem Java sugere, por convenções, formas de escrita universal para nossas classes, atributos, métodos e pacotes.
 
 #### Variáveis
 
-Mais cedo já aprendemos algumas regras de declaração de variáveis, mas agora iremos conhecer algumas sugestões de de nomenclatura:
+Mais cedo já aprendemos algumas regras de declaração de variáveis, mas agora iremos conhecer algumas sugestões de nomenclatura:
 
 * Uma variável deve ser clara, sem abreviações ou definição sem sentido;
 * Uma variável é sempre no singular, **exceto quando se referir a um array ou coleção**.

@@ -1,6 +1,6 @@
 # Terminal e Argumentos
 
-Nem sempre executamos nosso programa Java pela IDE, já pensou nossos clientes tendo que instalar o Eclipse ou VsCode para rodar o sistema em sua empresa ?
+Nem sempre executamos o nosso programa Java pela IDE, já pensou os nossos clientes tendo que instalar o Eclipse ou VsCode para rodar o sistema na sua empresa?
 
 Com a JVM devidamente configurada, nós podemos criar um executável do nosso programa e disponibilizar o instalador para qualquer sistema operacional.
 
@@ -17,25 +17,25 @@ public class MinhaClasse {
 ```
 
 
-Observe que nosso projeto Java criado por um IDE, ele terá uma pasta chamada **bin**. É nesta pasta que ficarão os arquivos **.class**, o nosso `bytecode`.
+Observe que o nosso projeto Java criado por um IDE, ele terá uma pasta chamada **bin**. É nesta pasta que ficarão os arquivos**.class**, o nosso `bytecode`.
 
 
-<img src="image (2).png" Alt="Loc VSCode">
+<img src="assets/terminal e argumentos (1).png" Alt="Loc VSCode">
 
 Mesmo usando uma IDE, nós sempre precisaremos identificar aonde se encontram as classes do nosso projeto, no meu caso está em: **C:\estudos\dio-trilha-java-basico\java-terminal.**
 
-<img src="image (3).png" Alt="Terminal VSCode">
+<img src="assets/terminal e argumentos (2).png" Alt="Terminal VSCode">
 
 ## Terminal
 
-Vamos ilustrar como executar uma classe, depois de compilada, sem precisar usar a IDE.
+Vamos ilustrar como executar uma classe, após compilada, sem precisar usar a IDE.
 
 1. Abra o MS-DOS ou Power Shell
 2. Localize o diretório do seu projeto: **`cd C:\estudos\dio-trilha-java-basico\java-terminal`**
 3. Acesse a pasta **** _bin_: ** `cd bin`**
-4. Agora digite o comando:**`java MinhaClasse` ** _(nome da sua classe sem a extensão .**class**)_&#x20;
+4. Agora digite o comando:**`java MinhaClasse` ** _(nome da sua classe sem a extensão.**class**)_&#x20;
 
-<img src="image (4).png" Alt="Terminal">
+<img src="assets/terminal e argumentos (3).png" Alt="Terminal">
 
 ## Argumentos
 
@@ -67,10 +67,10 @@ public class AboutMe {
 #
 **Passando valores aos argumentos pelo VsCode.**
 
-<img src="image (5).png" Alt="Execução VSCode">
+<img src="assets/terminal e argumentos (4).png" Alt="Execução VSCode">
 
 #
-<img src="image (6).png" Alt="Json VSCode">
+<img src="assets/terminal e argumentos (5).png" Alt="Json VSCode">
 
 ```json
 {
