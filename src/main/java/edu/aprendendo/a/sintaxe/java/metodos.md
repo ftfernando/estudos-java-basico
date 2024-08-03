@@ -1,5 +1,8 @@
+[Voltar ao índice](../../../../../../../../README.md)
+
 ---
-description: Todas as ações das aplicações são consideradas métodos.
+Importante: Todas as ações das aplicações são consideradas métodos.
+
 ---
 
 # Métodos
@@ -40,7 +43,7 @@ Mas, como sabemos a melhor forma de definir os métodos das nossas classes? Para
 2. **Qual o tipo de retorno esperado após executar o método?** Você deve analisar se o método será responsável por retornar algum valor ou não.
 
 
-&#x20;Caso o método não retorne nenhum valor, ele será representado pela palavra-chave `void`.&#x20;
+Caso o método não retorne nenhum valor, ele será representado pela palavra-chave `void`.&#x20;
 
 
 1. **Quais os parâmetros serão necessários para execução do método?** Os métodos as vezes precisam de argumentos como critérios para a execução.
@@ -89,11 +92,4 @@ public class MyClass {
 }
 ```
 
-## Exercitando
-
-Vamos criar um exemplo de uma classe para representar uma SmartTV onde:
-
-1. Ela tenha as características: ligada (boolean), canal (int) e volume (int)
-2. Nossa TV poderá ligar e desligar e assim mudar o estado ligada
-3. Nossa TV aumentará e diminuirá o volume sempre em +1 ou -1
-4. Nossa TV poderá mudar de canal de 1 em 1 ou definindo o número correspondente
+[Voltar ao índice](../../../../../../../../README.md)

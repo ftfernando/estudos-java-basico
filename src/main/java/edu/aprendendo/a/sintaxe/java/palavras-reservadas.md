@@ -1,3 +1,5 @@
+[Voltar ao índice](../../../../../../../../README.md)
+
 # Palavras reservadas
 
 Palavras reservadas são identificadores de uma linguagem que já possuem uma finalidade específica, portanto não podem ser utilizados para nomear variáveis, classes, métodos ou atributos.&#x20;
@@ -67,3 +69,6 @@ Assim como nas classificações gramaticais da língua portuguesa, existem algum
 #### Referência
 
 <a href="http://www.linhadecodigo.com.br/artigo/83/as-52-palavras-reservadas-do-java.aspx">Linha de Código</a>
+
+
+[Voltar ao índice](../../../../../../../../README.md)

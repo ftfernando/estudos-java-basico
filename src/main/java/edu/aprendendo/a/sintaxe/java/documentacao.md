@@ -1,3 +1,5 @@
+[Voltar ao índice](../../../../../../../../README.md)
+
 # Documentação
 
 Uma das maiores características da linguagem Java é que desde suas primeiras versões tínhamos em nossas mãos uma documentação rica e detalhada dos recursos da linguagem.
@@ -55,8 +57,6 @@ public class Calculadora {
 
 ```
 
-
-<img src="image (1).png" alt="exemplo VSCode">
 
 ### Tipos de comentários
 
@@ -123,3 +123,5 @@ javadoc -encoding UTF-8 -docencoding ISO-8859-1  -d ../docs  src/*.java
 
 
 ##
+
+[Voltar ao índice](../../../../../../../../README.md)

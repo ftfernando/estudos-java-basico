@@ -1,6 +1,4 @@
----
-description: Uma classe bem estruturada não quer guerra com ninguém
----
+[Voltar ao índice](../../../../../../../../README.md)
 
 # Anatomia das classes
 
@@ -211,3 +209,5 @@ calcularImprimir(){} // há algo de errado neste método, ele deveria ter uma ú
 ```
 
 ##
+
+[Voltar ao índice](../../../../../../../../README.md)
