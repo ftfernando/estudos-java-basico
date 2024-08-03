@@ -4,7 +4,7 @@ Palavras reservadas são identificadores de uma linguagem que já possuem uma fi
 
 A linguagem Java possui 52 palavras reservadas. Todas essas palavras são classificadas em grupos e escritas com letra minúscula, sendo identificadas com uma cor especial pela maioria das IDE's. Abaixo temos a lista de palavras agrupadas por sua finalidades.
 
-<img src="image.png">
+<img src="image.png" alt="Palavras Reservadas">
 
 | Controle de pacotes                                                                                                                                                                      |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -66,5 +66,4 @@ Assim como nas classificações gramaticais da língua portuguesa, existem algum
 
 #### Referência
 
-<a href="http://www.linhadecodigo.com.br/artigo/83/as-52-palavras-reservadas-do-java.aspx">linha de codigo</a>
-
+<a href="http://www.linhadecodigo.com.br/artigo/83/as-52-palavras-reservadas-do-java.aspx">Linha de Código</a>
